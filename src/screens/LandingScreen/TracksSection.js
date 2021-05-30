@@ -25,7 +25,7 @@ const TracksSection = () => {
           variant="title"
           sx={{ my: [0, 4], textAlign: 'center' }}
         >
-          Past Tracks
+          Tracks
         </Heading>
         <Grid
           pt={[3, 4]}
@@ -147,9 +147,9 @@ const TracksSection = () => {
                 to bring into spotlight and let the world know of their
                 capabilities. This segment is for bringing out the gem of your
                 projects out of the inventory that you’ve already worked upon in
-                the past, and put some light to it. It can revolve around
-                anything, and would be great to showcase your development as
-                sprouting hacker!
+                the , and put some light to it. It can revolve around anything,
+                and would be great to showcase your development as sprouting
+                hacker!
               </Text>
             </div>
           </div>

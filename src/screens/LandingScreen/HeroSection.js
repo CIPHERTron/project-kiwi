@@ -29,7 +29,7 @@ const HeroSection = () => {
       id="hero-section"
       as="main"
       sx={{
-        pt: [5],
+        pt: [5, 6],
         pb: 5,
         bg: 'dark',
         color: 'muted',
@@ -74,31 +74,19 @@ const HeroSection = () => {
             filter: `drop-shadow(0 0 1px ${color}) drop-shadow(0 0 2px ${color}) drop-shadow(0 0 6px ${color})`
           }}
         >
-          HACKNITR 3.0
+          HACKNITR 2.0
         </Heading>
         <Text
-          as="h6"
+          as="h3"
           variant="subtitle"
           mt={2}
-          mb={[4, 3]}
+          mb={[4, 5]}
           sx={{
             fontSize: [2, 4],
             fontWeight: 'bold'
           }}
         >
-          28 - 31 October, 2021
-        </Text>
-        <Text
-          as="p"
-          variant="subtitle"
-          mt={1}
-          mb={[2, 1]}
-          sx={{
-            fontSize: [2, 2],
-            fontWeight: 'bold'
-          }}
-        >
-          (HackNITR 2.0 was held during 19-21 March, 2021)
+          19 - 21 March, 2021
         </Text>
       </SlideDown>
 
@@ -107,10 +95,10 @@ const HeroSection = () => {
         sx={{
           position: 'relative',
           width: '100%',
-          maxWidth: 256,
-          minHeight: 256,
+          maxWidth: 550,
+          minHeight: 550,
           mx: 'auto',
-          mt: [4, 3],
+          mt: [4, 5],
           img: {
             position: 'absolute',
             top: 0,
@@ -121,9 +109,9 @@ const HeroSection = () => {
         }}
       >
         <Image
-          src="/images/diamond-jubilee.png"
+          src="/images/undraw2.png"
           alt="Hackathon Cover"
-          width={400}
+          width={550}
           sx={{
             zIndex: 1,
             animation: `${floating} cubic-bezier(.55,.03,.43,.98) 8s infinite alternate`,

@@ -159,22 +159,22 @@ const Navigation = ({ muted, handleMute, handleToggle, ...props }) => (
       </Box>
 
       <Box className="navLink" sx={{ mb: [4, 0] }}>
-        <Link href="/sponsors">
+        <Link href="sponsors">
           <a>Sponsors</a>
         </Link>
       </Box>
 
-      {/* <Box className="navLink" sx={{ mb: [4, 0] }}>
-        <Link href="/timeline">
+      <Box className="navLink" sx={{ mb: [4, 0] }}>
+        <Link href="timeline">
           <a>Timeline</a>
         </Link>
-      </Box> */}
+      </Box>
 
-      {/* <Box className="navLink" sx={{ mb: [4, 0] }}>
-        <Link href="/guide">
+      <Box className="navLink" sx={{ mb: [4, 0] }}>
+        <Link href="guide">
           <a>Guide</a>
         </Link>
-      </Box> */}
+      </Box>
 
       <Box className="navLink" sx={{ mb: [4, 0] }}>
         <Link href="/inductions">

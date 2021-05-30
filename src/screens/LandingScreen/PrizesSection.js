@@ -38,7 +38,7 @@ const PrizesSection = () => {
               bg: 'rgb(255, 212, 64)'
             }}
           >
-            Past Prizes
+            Prizes
           </Text>
         </Heading>
 

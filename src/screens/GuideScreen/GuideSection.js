@@ -38,7 +38,7 @@ const Gallery = () => {
           }
         }}
       >
-        <Heading sx={{ fontSize: ['35px', '100px'] }}>Hello Hackers 👋</Heading>
+        <Heading sx={{ fontSize: ['35px', '100px'] }}>Hola Hackers 👋</Heading>
 
         <Heading sx={{ mt: '1rem', mb: '1rem' }}> Important links </Heading>
         <ul>
@@ -70,10 +70,8 @@ const Gallery = () => {
           </li>
           <li>
             <strong>Calendar:</strong>{' '}
-  
             <Link target="_blank" href="https://bit.ly/HACKNITRCALENDAR">
               https://bit.ly/HACKNITRCALENDAR
-
             </Link>
           </li>
           <li>

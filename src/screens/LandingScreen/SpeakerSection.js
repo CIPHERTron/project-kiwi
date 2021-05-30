@@ -54,7 +54,7 @@ const SpeakerSection = () => {
               bg: 'rgb(255, 212, 64)'
             }}
           >
-            Past Speakers
+            Speakers
           </Text>
         </Heading>
 
